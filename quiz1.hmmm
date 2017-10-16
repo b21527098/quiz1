@@ -1,0 +1,14 @@
+0 setn r1 5
+1 setn r2 0
+2 setn r3 0
+3 setn r4 -10
+4 setn r10 2
+5 mul r5 r1 r1
+6 mul r6 r5 r4
+7 div r11 r6 r10
+8 mul r7 r2 r3
+9 add r8 r11 r7
+10 add r9 r8 r2
+11 write r9
+12 halt
+
